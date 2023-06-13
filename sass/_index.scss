@@ -1,0 +1,80 @@
+.section-index {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+.card-index {
+    border: 1rem;
+    border-color:#1e1e1e;
+    border-radius: 1rem;
+}
+
+.row {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    row-gap: 2rem;
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.row-container {
+    margin: 2rem;
+    align-items: center;
+    display:flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+}
+
+.card-body-secondary {
+    padding: 5rem;
+}
+
+.contenedor {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid #232323;
+}
+
+.card-text-secondary {
+    padding-top: 0rem;
+}
+
+small {
+    font-size: 1.4rem;
+}
+
+.button-space {
+    margin-top: 7.5rem;
+}
+
+.days-primary{
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    color: black;
+    text-align:start;
+    margin-block-end: 0rem;
+    padding-right: 5rem;
+}
+ 
+.days-secondary {
+    @extend .days-primary;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+}
+
+@media screen and (max-width: 992px){
+    .col-12{
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+
+    .row {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        row-gap: 2rem;
+    }
+}

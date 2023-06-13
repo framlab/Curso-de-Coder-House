@@ -1,0 +1,45 @@
+.card-title {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #1e1e1e;
+  text-align:start;
+  margin-bottom: 0rem;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+.card-text {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #1e1e1e;
+  text-align:start;
+  margin-bottom: 0rem;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+.card-footer {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align:start;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    background-color: #F5F5F5;
+}
+
+.text-body-secondary {
+  --bs-secondary-color: #1e1e1e;
+}
+
+.container-images {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.container-video {
+  padding-top: 5rem;
+  padding-bottom: 20rem;
+}

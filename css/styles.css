@@ -1,0 +1,459 @@
+/* Secciones */
+.form-contact, .form-news {
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  background-color: #F5F5F5;
+}
+
+.form-news {
+  background-color: #e3dac9;
+}
+
+/* Formulario */
+.form {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-size: 1.6rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.form .form-label {
+  display: block;
+  margin-bottom: 2rem;
+}
+.form .form-control {
+  font-size: 2.1rem;
+  font-weight: 400;
+  padding: 2rem;
+}
+.form .form-select {
+  font-size: 2.1rem;
+  font-weight: 400;
+  padding: 2rem;
+}
+
+.terms-and-conditions {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: black;
+  text-align: start;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+/* Botones */
+.btn {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 1.4rem;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
+
+.btn-primary {
+  align-content: space-around;
+  color: white;
+  border-color: #0d6efd;
+  background-color: #0d6efd;
+}
+.btn-primary:hover {
+  border-color: #DD1C1A;
+  background-color: #DD1C1A;
+}
+
+.px-4 {
+  padding-right: 0rem;
+  padding-left: 0rem;
+}
+
+@media screen and (max-width: 992px) {
+  .container-lg {
+    width: 85%;
+  }
+  .col-12 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+.card-title {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #1e1e1e;
+  text-align: start;
+  margin-bottom: 0rem;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+.card-text {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #1e1e1e;
+  text-align: start;
+  margin-bottom: 0rem;
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+.card-footer {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: start;
+  margin-block-start: 0rem;
+  margin-block-end: 0rem;
+  background-color: #F5F5F5;
+}
+
+.text-body-secondary {
+  --bs-secondary-color: #1e1e1e;
+}
+
+.container-images {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.container-video {
+  padding-top: 5rem;
+  padding-bottom: 20rem;
+}
+
+.container-music {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.row {
+  margin-bottom: 5rem;
+}
+
+.row button {
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+.card-music {
+  position: relative;
+  width: auto;
+  height: 800px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 1s ease-in-out;
+  transform-style: preserve-3d;
+}
+.card-music:hover {
+  transform: rotateY(0.5turn);
+}
+.card-music .card__face {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transition: 1s ease-in-out;
+}
+.card-music .card__face img {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+  border-radius: 2.5rem;
+}
+.card-music .card__face--back {
+  transform: rotateY(0.5turn);
+}
+
+.container-information {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.about-us {
+  padding: 5rem;
+}
+
+.about-us_information h2 {
+  text-align: start;
+  margin-block-end: 4rem;
+  margin-block-start: 0rem;
+}
+.about-us_information h3 {
+  text-align: start;
+  margin-block-end: 2rem;
+  margin-block-start: 0rem;
+}
+.about-us_information div p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: #1e1e1e;
+  text-align: center;
+  margin-block: 5rem;
+}
+
+figure blockquote ul li {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 1.8rem;
+  margin-block-end: 1rem;
+  color: #1e1e1e;
+  text-align: start;
+}
+figure .blockquote-footer {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  margin-bottom: 6rem;
+  color: rgb(108, 117, 125);
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-text {
+  padding-top: 2rem;
+}
+
+.section-index {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.card-index {
+  border: 1rem;
+  border-color: #1e1e1e;
+  border-radius: 1rem;
+}
+
+.row {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  row-gap: 2rem;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row-container {
+  margin: 2rem;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+}
+
+.card-body-secondary {
+  padding: 5rem;
+}
+
+.contenedor {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid #232323;
+}
+
+.card-text-secondary {
+  padding-top: 0rem;
+}
+
+small {
+  font-size: 1.4rem;
+}
+
+.button-space {
+  margin-top: 7.5rem;
+}
+
+.days-primary, .days-secondary {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: black;
+  text-align: start;
+  margin-block-end: 0rem;
+  padding-right: 5rem;
+}
+
+.days-secondary {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .col-12 {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
+  .row {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    row-gap: 2rem;
+  }
+}
+.d-grid {
+  display: grid;
+}
+
+li {
+  display: flex;
+  padding-right: 25px;
+}
+
+.footer-container {
+  background-color: #0d6efd;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer-container_name {
+  align-items: center;
+}
+
+.footer-text {
+  color: white;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+}
+
+.footer-nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+.link-index {
+  text-decoration: none;
+}
+
+.footer-nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.footer_name {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer_name .footer_name_text {
+  color: white;
+}
+
+.bxl-facebook-circle, .bxl-twitter, .bxl-instagram, .bxl-youtube, .bxl-spotify {
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .footer_name {
+    justify-content: center;
+    text-align: center;
+  }
+  .footer-nav ul {
+    display: flex;
+    justify-content: center;
+  }
+}
+.navbar {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #1e1e1e;
+  background-color: #0d6efd;
+}
+.navbar .nav-link:hover {
+  font-weight: 700;
+  color: #F5F5F5;
+}
+.navbar .nav-link.active {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #F5F5F5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; /* =10px */
+}
+
+/* Tipografias */
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-size: 4.8rem;
+  color: black;
+  text-align: start;
+  margin-block-end: 2rem;
+}
+
+h2 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+  font-size: 3.6rem;
+  color: black;
+  text-align: center;
+  margin-block: 5rem;
+}
+
+h3 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: black;
+  text-align: start;
+  margin-block: 0rem;
+}
+
+h4 {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+  color: black;
+  text-align: start;
+  margin-block-end: 2.5rem;
+}
+
+h5, p {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: black;
+  text-align: start;
+  margin-block-end: 0rem;
+}
+
+p {
+  line-height: 2.24rem;
+}
+
+.title-images {
+  padding-bottom: 2.5rem;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */

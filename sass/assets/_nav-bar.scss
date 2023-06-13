@@ -1,0 +1,19 @@
+.navbar {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #1e1e1e;
+  background-color: #0d6efd;
+  .nav-link:hover {
+    font-weight: 700;
+    color: #F5F5F5;
+  }
+  .nav-link.active {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #F5F5F5;
+  }
+}
+
+

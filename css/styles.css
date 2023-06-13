@@ -188,14 +188,6 @@
   margin-block-end: 2rem;
   margin-block-start: 0rem;
 }
-.about-us_information div p {
-  font-family: "Roboto Mono", monospace;
-  font-weight: 700;
-  font-size: 3.6rem;
-  color: #1e1e1e;
-  text-align: center;
-  margin-block: 5rem;
-}
 
 figure blockquote ul li {
   font-family: "Roboto Mono", monospace;
@@ -222,6 +214,15 @@ figure .blockquote-footer {
   padding-top: 2rem;
 }
 
+.paragraph {
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 992px) {
+  .about-us {
+    padding: 5rem 0rem 0rem 0rem;
+  }
+}
 .section-index {
   margin-top: 10rem;
   margin-bottom: 10rem;

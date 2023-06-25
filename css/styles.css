@@ -68,6 +68,14 @@
   padding-left: 0rem;
 }
 
+.carousel-caption {
+  bottom: 5rem;
+}
+.carousel-caption .carrusel {
+  color: #F5F5F5;
+  margin-block-end: 0rem;
+}
+
 @media screen and (max-width: 992px) {
   .container-lg {
     width: 85%;
@@ -262,7 +270,7 @@ figure .blockquote-footer {
 }
 
 .card-text-secondary {
-  padding-top: 0rem;
+  padding-top: 5rem;
 }
 
 small {
@@ -305,13 +313,8 @@ small {
   display: grid;
 }
 
-li {
-  display: flex;
-  padding-right: 25px;
-}
-
 .footer-container {
-  background-color: #0d6efd;
+  background-color: #000000;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -328,19 +331,17 @@ li {
 }
 
 .footer-nav ul {
+  list-style: none;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   margin: 0rem;
   padding: 0rem;
 }
-
-.link-index {
-  text-decoration: none;
+.footer-nav ul li {
+  padding-right: 25px;
 }
-
-.footer-nav a {
-  display: flex;
+.footer-nav ul li a {
   align-items: center;
   text-decoration: none;
 }
@@ -372,9 +373,12 @@ li {
   font-family: "Roboto Mono", monospace;
   font-weight: 400;
   font-size: 1.2rem;
-  text-align: center;
-  color: #1e1e1e;
-  background-color: #0d6efd;
+  text-align: start;
+  color: #F5F5F5;
+  background-color: #000000;
+}
+.navbar li {
+  padding-left: 2rem;
 }
 .navbar .nav-link:hover {
   font-weight: 700;
@@ -385,7 +389,19 @@ li {
   font-size: 1.4rem;
   color: #F5F5F5;
 }
+.navbar .nav-link {
+  color: #F5F5F5;
+}
 
+.navbar-toggler {
+  background-color: #F5F5F5;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar li {
+    padding-left: 0rem;
+  }
+}
 * {
   margin: 0;
   padding: 0;

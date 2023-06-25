@@ -73,6 +73,14 @@
     padding-left: 0rem;
 }
 
+.carousel-caption {
+    bottom: 5rem;
+    .carrusel {
+        color: #F5F5F5;
+        margin-block-end: 0rem;
+     }
+}
+
 
 @media screen and (max-width: 992px){
     .container-lg{
